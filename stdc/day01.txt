@@ -41,6 +41,22 @@ cd	切换目录
 
 cd -	上一次目录
 clear	清屏命令	ctrl + l
+rmdir	删除空目录
+rm	删除文件/目录	
+rm -r	删除目录	-r	递归
+	rm -r test
+touch	filrname	如filename不存在则创建该文件，如
+			该文件存在，则修改文件的时间
+	touch /home/as/stdc/test	
+	或
+	cd ~	touch test
+【练习】
+	1. 在主目录下创建linux目录
+	2. 在linux目录下创建day01目录
+	3. 在day01目录下创建test文件
+
+	先用相对路径创建 成功后删除
+	然后用绝对路径再创建一次
 	
 
 ————————————————————————————————————  1.5天
