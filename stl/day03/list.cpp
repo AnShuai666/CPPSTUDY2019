@@ -183,12 +183,12 @@ public:
 			return *this;
 		}
 
-		bool operator==(iterator&  rh) const
+		bool operator==(iterator const&  rh) const
 		{
 			return m_cur == rh.m_cur;
 		}
 
-		bool operator!=(iterator& rh) const
+		bool operator!=(iterator const& rh) const
 		{
 			return !(*this == rh);
 		}
@@ -214,8 +214,18 @@ public:
 		return iterator(m_head,m_tail);
 	}
 
+	//在迭代器指定的位置添加节点
+	iterator insert(T const& data)
+	{
+		
+	}
 
-
+	//删除迭代器指向的节点
+	iterator erase()
+	{
+		
+	}
+	
 	Node* m_head;
 	Node* m_tail;
 
